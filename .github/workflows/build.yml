@@ -61,7 +61,7 @@ jobs:
     if: github.ref == 'refs/heads/main' || github.event_name == 'release'
     environment:
       name: 'GitHub Packages'
-      url: https://github.com/ferarias/FastestNuGet/packages
+      url: https://github.com/ferarias/MarkdownParse/packages
     runs-on: windows-latest
     steps:
       - name: 'Download Artefact'
