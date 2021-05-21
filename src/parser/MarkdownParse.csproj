@@ -3,6 +3,11 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Arias.MarkdownParser</AssemblyName>
+    <RootNamespace>Arias.MarkdownParser</RootNamespace>
+    <Authors>Fernando Arias</Authors>
+    <Company>Arias Productions</Company>
+    <Description>Simple library to parse markdown short strings and return chunks of text with associated styling.</Description>
     
   </PropertyGroup>
 
